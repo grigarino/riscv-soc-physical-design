@@ -1,0 +1,66 @@
+Loading db file '/home/net/sh440529/FullCustom/Full_Customs_Final/final_project/libraries/new_files/sky130_sram_1kbyte_1rw1r_32x256_8.db'
+Loading db file '/home/net/sh440529/FullCustom/Full_Customs_Final/final_project/libraries/new_files/sky130_sram_2kbyte_1rw1r_32x512_8.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : riscv_soc
+Version: X-2025.06-SP4
+Date   : Tue Apr 21 14:01:54 2026
+****************************************
+
+
+Library(s) Used:
+
+    sky130_fd_sc_hd__ss_100C_1v60 (File: /home/net/sh440529/FullCustom/Full_Customs_Final/final_project/libraries/sky130_fd_sc_hd/db/sky130_fd_sc_hd__ss_100C_1v60.db)
+    sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C_lib (File: /home/net/sh440529/FullCustom/Full_Customs_Final/final_project/libraries/new_files/sky130_sram_2kbyte_1rw1r_32x512_8.db)
+    sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C_lib (File: /home/net/sh440529/FullCustom/Full_Customs_Final/final_project/libraries/new_files/sky130_sram_1kbyte_1rw1r_32x256_8.db)
+
+
+Operating Conditions: ss_100C_1v60   Library: sky130_fd_sc_hd__ss_100C_1v60
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+riscv_soc              Small             sky130_fd_sc_hd__ss_100C_1v60
+
+
+Global Operating Voltage = 1.6  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =  14.5985 mW   (99%)
+  Net Switching Power  = 123.3328 uW    (1%)
+                         ---------
+Total Dynamic Power    =  14.7218 mW  (100%)
+
+Cell Leakage Power     = 345.5903 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory            11.5241        2.6025e-03        1.6084e+05           11.6875  (  77.57%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      3.0020            0.0000            0.0000            3.0020  (  19.92%)  i
+register       1.3394e-02        1.4363e-02        7.1531e+04        9.9282e-02  (   0.66%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  5.8981e-02            0.1064        1.1322e+05            0.2786  (   1.85%)
+--------------------------------------------------------------------------------------------------
+Total             14.5985 mW         0.1233 mW     3.4559e+05 nW        15.0674 mW
+1

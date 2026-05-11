@@ -1,0 +1,125 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'riscv_soc' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : qor
+Design : riscv_soc
+Version: X-2025.06-SP4
+Date   : Tue Apr 21 14:01:51 2026
+****************************************
+
+
+  Timing Path Group 'FEEDTHROUGH'
+  -----------------------------------
+  Levels of Logic:              23.00
+  Critical Path Length:          7.57
+  Critical Path Slack:          27.53
+  Critical Path Clk Period:     45.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'REG2REG'
+  -----------------------------------
+  Levels of Logic:              96.00
+  Critical Path Length:         43.80
+  Critical Path Slack:           0.00
+  Critical Path Clk Period:     45.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'REGIN'
+  -----------------------------------
+  Levels of Logic:              28.00
+  Critical Path Length:         10.80
+  Critical Path Slack:          28.62
+  Critical Path Clk Period:     45.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'REGOUT'
+  -----------------------------------
+  Levels of Logic:              35.00
+  Critical Path Length:         11.48
+  Critical Path Slack:           5.62
+  Critical Path Clk Period:     45.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:         69
+  Hierarchical Port Count:      12676
+  Leaf Cell Count:              27020
+  Buf/Inv Cell Count:            6461
+  Buf Cell Count:                1740
+  Inv Cell Count:                4721
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:     22943
+  Sequential Cell Count:         4077
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:   195137.146800
+  Noncombinational Area: 98167.900900
+  Buf/Inv Area:          27622.741619
+  Total Buffer Area:          7482.18
+  Total Inverter Area:       20140.57
+  Macro/Black Box Area:
+                       2657732.843750
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:           2951037.891450
+  Design Area:         2951037.891450
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:         30356
+  Nets With Violations:             1
+  Max Trans Violations:             1
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: net1580
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                   36.91
+  Logic Optimization:                 37.93
+  Mapping Optimization:              103.32
+  -----------------------------------------
+  Overall Compile Time:              185.05
+  Overall Compile Wall Clock Time:   189.03
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

@@ -1,0 +1,68 @@
+ Info: Initializing timer in CLOCK_SYN_REPORT_MODE
+Information: The value of option cts.compile.enable_cell_relocation has been overridden to "leaf_only" to support latency-driven placement. (CTS-973)
+****************************************
+Report : clock qor
+        -type summary
+Design : riscv_soc
+Version: X-2025.06-SP1
+Date   : Fri May  1 10:55:41 2026
+****************************************
+
+Attributes
+===========
+M Master Clock
+G Generated Clock
+& Internal Generated Clock
+U User Defined Skew Group
+D Default Skew Group
+* Generated Clock Balanced Separately
+
+===================================================
+==== Summary Reporting for Corner ff_n40C_1v95 ====
+===================================================
+
+======================================================== Summary Table for Corner ff_n40C_1v95 =========================================================
+Clock /                               Attrs     Sinks Levels    Clock     Clock     Clock       Max    Global  Trans DRC  Cap DRC      Wire
+Skew Group                                                   Repeater  Repeater   Stdcell   Latency      Skew     Count     Count    Length
+                                                                Count      Area      Area
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+### Mode: func, Scenario: func@ff_n40C_1v95.hold
+clk                                     M,D      4087     10       89   1182.38   1182.38      1.73      1.00         0         0  59616.68
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+All Clocks                                       4087     10       89   1182.38   1182.38      1.73      1.00         0         0  59616.68
+
+
+Warning: Please use -largest / -smallest / -all switches with -show_verbose_paths / -show_paths to report the clock paths. (CTS-956)
+===================================================
+==== Summary Reporting for Corner ss_100C_1v60 ====
+===================================================
+
+======================================================== Summary Table for Corner ss_100C_1v60 =========================================================
+Clock /                               Attrs     Sinks Levels    Clock     Clock     Clock       Max    Global  Trans DRC  Cap DRC      Wire
+Skew Group                                                   Repeater  Repeater   Stdcell   Latency      Skew     Count     Count    Length
+                                                                Count      Area      Area
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+### Mode: func, Scenario: func@ss_100C_1v60.setup
+clk                                     M,D      4087     10       89   1182.38   1182.38      4.90      2.93         1         2  59616.68
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+All Clocks                                       4087     10       89   1182.38   1182.38      4.90      2.93         1         2  59616.68
+
+
+Warning: Please use -largest / -smallest / -all switches with -show_verbose_paths / -show_paths to report the clock paths. (CTS-956)
+===================================================
+==== Summary Reporting for Corner tt_025C_1v80 ====
+===================================================
+
+======================================================== Summary Table for Corner tt_025C_1v80 =========================================================
+Clock /                               Attrs     Sinks Levels    Clock     Clock     Clock       Max    Global  Trans DRC  Cap DRC      Wire
+Skew Group                                                   Repeater  Repeater   Stdcell   Latency      Skew     Count     Count    Length
+                                                                Count      Area      Area
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+### Mode: func, Scenario: func@tt_025C_1v80.leak
+clk                                     M,D      4087     10       89   1182.38   1182.38      2.67      1.56         1         0  59616.68
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+All Clocks                                       4087     10       89   1182.38   1182.38      2.67      1.56         1         0  59616.68
+
+
+Warning: Please use -largest / -smallest / -all switches with -show_verbose_paths / -show_paths to report the clock paths. (CTS-956)
+1

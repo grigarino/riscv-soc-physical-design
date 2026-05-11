@@ -1,0 +1,12 @@
+*.gds
+*.spef
+*.ddc
+*.ndm
+*.db
+*.lib
+*.lef
+*.zip
+*.tar
+*.log
+*.bak
+.DS_Store
